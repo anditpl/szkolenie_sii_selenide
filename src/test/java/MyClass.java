@@ -6,8 +6,10 @@
 public class MyClass {
     String s = "myString";
     int total = 100;
+    double d2 = 50.10;
 
     public void test(){
         String s1 = "smth";
     }
+
 }
