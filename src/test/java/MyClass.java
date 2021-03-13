@@ -19,6 +19,8 @@ public class MyClass {
         String s1= "smth";
       System.out.println(s4);
       System.out.println(s5);
+      System.out.println("Test");
+
     }
 
     public void test2(){
