@@ -1,4 +1,4 @@
-package com.w3school;
+package com.slenide.test;
 
 /**
  * Created by Lukasz Krause

@@ -1,4 +1,4 @@
-package com.w3school;
+package com.slenide.test;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
@@ -18,6 +18,7 @@ public class FirstTest {
 
         open("https://www.w3schools.com/cssref/css_selectors.asp");
         System.out.println("Test " + WebDriverRunner.url());
+        Selenide.title().equals("CSS Selectors Reference");
 
         $("#accept-choices").click();
 //        $(screenshot("test"));
