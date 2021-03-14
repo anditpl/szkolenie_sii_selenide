@@ -1,9 +1,8 @@
-package com.selenide.test;
+package com.selenide.tests;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
-import org.junit.Assert;
 import org.junit.Test;
 
 import static com.codeborne.selenide.Condition.attribute;
