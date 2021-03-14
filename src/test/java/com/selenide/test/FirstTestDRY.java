@@ -1,4 +1,4 @@
-package com.slenide.test;
+package com.selenide.test;
 
 /**
  * Created by Lukasz Krause

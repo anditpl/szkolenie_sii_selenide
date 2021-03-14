@@ -1,4 +1,4 @@
-package com.slenide.test;
+package com.selenide.test;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;

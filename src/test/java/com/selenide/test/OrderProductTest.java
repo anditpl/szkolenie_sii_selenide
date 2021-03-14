@@ -1,5 +1,6 @@
-package com.slenide.test;
+package com.selenide.test;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import org.junit.Assert;
@@ -17,9 +18,10 @@ import static org.junit.Assert.assertEquals;
 public class OrderProductTest {
 
     @Test
-    public void openWomanSite(){
+    public void smoke(){
 
         open("https://www.cropp.com/pl/pl/");
-        $("body.cms-home.has-cookies-bar.has-promo-bar.lang-pl:nth-child(2) div.sc-hORach.dtwgvi:nth-child(3) div.sc-bMVAic.dFhdEi header.sc-epnACN.eKxAZT div.sc-bsbRJL.fOVRUC div.sc-hZSUBg.loAibC ul.sc-fHxwqH.ivihn.menu li.sc-dxZgTM.foIWYn.menu-submenu.type-default.level-0:nth-child(3) > a.sc-iFMziU.jMMlzb").hover();
+        WebDriverRunner.getWebDriver().manage().window().maximize();
+        $$(".menu>li>a").find(Condition.exactText("Kobieta")).click();
     }
 }
